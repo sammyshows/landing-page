@@ -31,9 +31,10 @@ a:hover {
 	padding: 230px;
 }
 #banner h1, p {
-	background: rgba(52, 64, 58, 0.5);
+	background: rgba(47, 18, 15, 0.6);
+	width: 700px;
 	text-shadow: 1px 1px 0px black;
-	margin: 0;
+	margin: auto;
 	padding: 10px;
 }
 #footer{

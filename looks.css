@@ -1,0 +1,23 @@
+body {
+	background: #138A36;
+	color: white;
+	font-size: 25px;
+	font-family: Ubuntu, sans-serif;
+}
+h1 {
+	font-family: Ubuntu, sans-serif;
+	font-size: 15px;
+	font-weight: lighter;
+}
+h2 {
+	font-family: Ubuntu, sans-serif;
+	font-size: 20px;
+	font-weight: lighter;
+}
+a {
+	color: green;
+}
+a:hover {
+	text-decoration: none;
+	color: blue;
+}

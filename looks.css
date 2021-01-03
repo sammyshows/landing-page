@@ -1,13 +1,14 @@
 body {
-	background: #138A36;
+	background: #772E25;
+	margin: 0;
 	color: white;
 	font-size: 25px;
 	font-family: Ubuntu, sans-serif;
+	text-align: center;
 }
 h1 {
 	font-family: Ubuntu, sans-serif;
-	font-size: 15px;
-	font-weight: lighter;
+	font-size: 50px;	
 }
 h2 {
 	font-family: Ubuntu, sans-serif;
@@ -15,9 +16,48 @@ h2 {
 	font-weight: lighter;
 }
 a {
-	color: green;
+	color: yellow;
+	text-decoration: none;
 }
 a:hover {
-	text-decoration: none;
-	color: blue;
+	text-decoration: underline;
+}
+
+#banner{
+	text-align: center;
+	background-image: url("https://images.pexels.com/photos/33109/fall-autumn-red-season.jpg?cs=srgb&dl=pexels-pixabay-33109.jpg&fm=jpg");
+	background-size: cover;
+	background-position: 50% 65%;
+	padding: 230px;
+}
+#banner h1, p {
+	background: rgba(52, 64, 58, 0.5);
+	text-shadow: 1px 1px 0px black;
+	margin: 0;
+	padding: 10px;
+}
+#footer{
+	padding: 10px;
+	background: #403D39;
+	color: grey;
+	text-align: center;
+}
+#footer a {
+  color: white;
+  font-size: 15px;
+}
+#footer a:hover {
+  color: grey;
+}
+#footer p {
+	color: white;
+	font-size: 20px;
+	padding: 10px;
+}
+.class{
+	margin: 10px;
+	text-align: center;
+	border-radius: 100px;
+	padding: 30px;
+	background: #c44536;
 }
